@@ -1,0 +1,135 @@
+.home-button-login {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+.home-button-register {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.button-login {
+    width: 100%;
+    text-align: center;
+  backface-visibility: hidden;
+  background: #332cf2;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-login:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.button-login:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-login:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-login:focus {
+  outline: 0 solid transparent;
+}
+
+.button-login:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-login:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-login:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+.button-register {
+    width: 100%;
+    text-align: center;
+  backface-visibility: hidden;
+  background: #ffffff;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-register:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.button-register:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-register:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-register:focus {
+  outline: 0 solid transparent;
+}
+
+.button-register:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-register:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-register:not(:disabled):active {
+  transform: translateY(.125rem);
+}
