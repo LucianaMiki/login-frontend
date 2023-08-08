@@ -23,7 +23,7 @@ export default function LoginForm(props) {
         e.preventDefault();
         const configuration = {
             method: "post",
-            url: "http://web-production-14dea.up.railway.app/login",
+            url: "https://web-production-14dea.up.railway.app/login",
             data: {
                 email,
                 password,
